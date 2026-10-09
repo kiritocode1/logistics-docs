@@ -1,0 +1,7 @@
+- heading "Login to continue" [level=2, ref=e142]
+- button "Sign in with email" [ref=e147]
+- button "Sign in with phone" [ref=e148]
+- link "Register Here" [ref=e146, url=https://in.stinder.io/#/registration]
+- link "Terms of Service" [ref=e143, url=javascript:void(0)]
+- link "Privacy Policy" [ref=e144, url=javascript:void(0)]
+- link "Refund Policy" [ref=e145, url=javascript:void(0)]
