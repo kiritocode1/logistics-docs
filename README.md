@@ -12,13 +12,14 @@ The starting use case is container triangulation across the JNPT, Pune and Auran
 - Start with customer booking, transporter and driver experiences, an admin panel, matching, pricing, tracking, notifications and payments.
 - Full TMS, WMS, gate automation and ERP are outside the starting scope. The operation has no existing software to replace.
 - The platform must represent approvals, documents, checks and verification outcomes. The client's team owns regulatory verification and validation. This repository does not establish legal compliance.
-- Next.js is the intended application framework. Other technology choices are not settled.
+- The agreed stack direction is Next.js on Vercel, Expo, Convex, Better Auth, Effect, Razorpay and R2. Drizzle and Elysia are excluded from the initial architecture. Integration details and live payment suitability still require validation.
 - The current task is document preservation, not implementation.
 
 The latest booking-platform direction supersedes both the earlier internal-software replacement interpretation and integration-only recommendation. Start with [current scope](docs/00-current-scope.md). Historical notes preserve the discussion, not current commitments.
 
 ## Documents
 
+- [Database model review for Hitesh](docs/11-database-model-review.md): current domain model, agreed stack, six logical gaps and proposed corrections. Recommendations are not yet an approved schema.
 - [Current scope and decisions](docs/00-current-scope.md)
 - [Agreed core platform brief and latest user answers](docs/05-core-platform-brief.md)
 - [Build decisions](docs/06-build-decisions.md): pricing formula, reuse matching, money flow, driver app, maps, stack and the first prototype
@@ -44,6 +45,6 @@ Use Play, Back and Next step, or select a numbered step. The alternate scenario 
 
 ## Status
 
-Local Git repository only. No remote has been created or configured. No dependencies, application routes, database or live integrations exist.
+Planning documents are stored in [kiritocode1/logistics-docs](https://github.com/kiritocode1/logistics-docs). No dependencies, application routes, database or live integrations exist. The earlier backend-first milestone was rejected as the immediate direction; the current work is domain-model review before implementation.
 
 The explainer is deployed to Vercel from `explainer/` (project `logistics-platform-explainer`). Planning is tracked in the Linear project [Logistics transport project.](https://linear.app/blankuwu/project/logistics-transport-project-47ce13506b32)
